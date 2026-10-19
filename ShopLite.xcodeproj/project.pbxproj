@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012B19A04BAE2D01357965EE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E191FFD619E206505B29AF3F /* Theme.swift */; };
+		13EEE4B4BDDE3602605FE89C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD424697DA33EEE091242FD /* HomeScreen.swift */; };
+		2A6D7E00E8552F7B6B94043E /* Converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5928BBE57D882902628422EF /* Converters.swift */; };
+		4F491BC09E6A1F8350A5B5DA /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE849279590E5F6830A38CDF /* AuthRepository.swift */; };
+		506834E52924F6ECC1333247 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728D32A641381E26FD8E2A30 /* Utils.swift */; };
+		523F97E3BFCB458B539944F6 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8CF970B6E4CFB601BBA65 /* CartViewModel.swift */; };
+		5B9B824A38584464E48AC0E6 /* CartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8279DD56FB29C3061BEBC03 /* CartScreen.swift */; };
+		6F3C16E0A3A64268B101340B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C516CA5A87E97EDF7E7FFA0 /* ApiService.swift */; };
+		79C45ED1D5AD1DD9AA1DF43D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF699455DA4857C301BA675C /* LoginScreen.swift */; };
+		7A57D793FF9042FAFC9659EB /* HttpApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753183A446F06BE68510C05C /* HttpApiService.swift */; };
+		85C8F52E3CF655266B827417 /* NetworkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C70A673D5B75C884A7EC00 /* NetworkModule.swift */; };
+		8AAD8A72674390E3817FC74E /* ProductDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1162DD6E700C0BFDA16843 /* ProductDetailScreen.swift */; };
+		8EB186E05ED468FBDE44FE13 /* CartRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA389342AD61DAEBB3649AD /* CartRepository.swift */; };
+		9108F03EFBCB37A8F6111D8C /* ShopLiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B18646309436855C2331D59 /* ShopLiteApp.swift */; };
+		97CDD3F870E69126C0F53236 /* AuthInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB8D4B3A5B838AD59562A24 /* AuthInterceptor.swift */; };
+		9A79A5662708E1A054D0474E /* DatabaseModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1644F2BE8F2F8B3F3696FFE /* DatabaseModule.swift */; };
+		A841724A15E20E8EF4E1A46E /* ProductDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A10EE7D8C95C4EF3D754F6B /* ProductDao.swift */; };
+		B1906671BEA4AB8008DFB640 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EA4B9AC330BE12A8366662 /* LoginViewModel.swift */; };
+		BFE8DDDB29DDF6977F9DF7F3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252DA49271F3FFB3305FCB70 /* Models.swift */; };
+		C75F0E7C6C94D2D1F46F8504 /* ProductEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBE28B975C7E87B85B708CC /* ProductEntity.swift */; };
+		E07EFA2E9804C092304CBF1F /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6045BCBF93104FFA5A8717FA /* ProductDetailViewModel.swift */; };
+		E3636C30C319AB6227C8DFFB /* HttpLoggingInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8469C8672103D14DFA1077 /* HttpLoggingInterceptor.swift */; };
+		EDC60D17BD8EAB337B20C573 /* UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114980D143328C58FB378FA8 /* UtilsTests.swift */; };
+		F0D83C215E29D16407F1B6C4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12669CC7471573CA7F3AA80D /* HomeViewModel.swift */; };
+		F946C9231971D7EE91D22F7E /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F6FA5490214063C5DB46B /* HttpClient.swift */; };
+		F97E6175DA8C26D40667434F /* ProductRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EE2B2315F8A574CBA8A84E /* ProductRepository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A69FEA546667F1410B57F038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD74ABE2B814FF6552ECBDCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E59A9F87CCC94161FCFA9DA;
+			remoteInfo = ShopLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		063F6FA5490214063C5DB46B /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		114980D143328C58FB378FA8 /* UtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsTests.swift; sourceTree = "<group>"; };
+		11B30EBC6C15E4ACE4FED3F0 /* ShopLite.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ShopLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12669CC7471573CA7F3AA80D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1A10EE7D8C95C4EF3D754F6B /* ProductDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDao.swift; sourceTree = "<group>"; };
+		1B18646309436855C2331D59 /* ShopLiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopLiteApp.swift; sourceTree = "<group>"; };
+		20EE2B2315F8A574CBA8A84E /* ProductRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRepository.swift; sourceTree = "<group>"; };
+		252DA49271F3FFB3305FCB70 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3C516CA5A87E97EDF7E7FFA0 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		5928BBE57D882902628422EF /* Converters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converters.swift; sourceTree = "<group>"; };
+		6045BCBF93104FFA5A8717FA /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
+		61EA4B9AC330BE12A8366662 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		728D32A641381E26FD8E2A30 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		753183A446F06BE68510C05C /* HttpApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpApiService.swift; sourceTree = "<group>"; };
+		7AA389342AD61DAEBB3649AD /* CartRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRepository.swift; sourceTree = "<group>"; };
+		86A8CF970B6E4CFB601BBA65 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		98671C3EC7429D3BB8E6AB9A /* ShopLiteTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ShopLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF699455DA4857C301BA675C /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		CFD424697DA33EEE091242FD /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E1644F2BE8F2F8B3F3696FFE /* DatabaseModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseModule.swift; sourceTree = "<group>"; };
+		E191FFD619E206505B29AF3F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		EAB8D4B3A5B838AD59562A24 /* AuthInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthInterceptor.swift; sourceTree = "<group>"; };
+		EB1162DD6E700C0BFDA16843 /* ProductDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailScreen.swift; sourceTree = "<group>"; };
+		EB8469C8672103D14DFA1077 /* HttpLoggingInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpLoggingInterceptor.swift; sourceTree = "<group>"; };
+		EBBE28B975C7E87B85B708CC /* ProductEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductEntity.swift; sourceTree = "<group>"; };
+		EE849279590E5F6830A38CDF /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		F0C70A673D5B75C884A7EC00 /* NetworkModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModule.swift; sourceTree = "<group>"; };
+		F8279DD56FB29C3061BEBC03 /* CartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0372F7C533B62178A31B3419 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				728D32A641381E26FD8E2A30 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1AAB2B36A56F9765B7D4DA63 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				EE849279590E5F6830A38CDF /* AuthRepository.swift */,
+				7AA389342AD61DAEBB3649AD /* CartRepository.swift */,
+				20EE2B2315F8A574CBA8A84E /* ProductRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2FE3CAFB8954C2FCD98B7B67 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9BC5B81F225F1A07497CA97E /* Cart */,
+				B4713BB01D9AE9A546326BD6 /* Detail */,
+				9FE80773D206EC81CE7467B7 /* Home */,
+				E0DB3ED272BB0087F22A5243 /* Login */,
+				746D81DD2B9591E69F1A968D /* Theme */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		31596E16B7DD36C3AA6270BB /* ShopLite */ = {
+			isa = PBXGroup;
+			children = (
+				1B18646309436855C2331D59 /* ShopLiteApp.swift */,
+				98E5082A030D4AA87E0395D2 /* Data */,
+				68F52B67BEB6315C4E88AA98 /* DI */,
+				331EC4445363EF297D910143 /* Network */,
+				2FE3CAFB8954C2FCD98B7B67 /* UI */,
+				0372F7C533B62178A31B3419 /* Utils */,
+			);
+			path = ShopLite;
+			sourceTree = "<group>";
+		};
+		331EC4445363EF297D910143 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3C516CA5A87E97EDF7E7FFA0 /* ApiService.swift */,
+				EAB8D4B3A5B838AD59562A24 /* AuthInterceptor.swift */,
+				753183A446F06BE68510C05C /* HttpApiService.swift */,
+				063F6FA5490214063C5DB46B /* HttpClient.swift */,
+				EB8469C8672103D14DFA1077 /* HttpLoggingInterceptor.swift */,
+				F20CDEACB14DFDA43056B249 /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		43BF611BE4BE7351DE6F4312 /* ShopLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				114980D143328C58FB378FA8 /* UtilsTests.swift */,
+			);
+			path = ShopLiteTests;
+			sourceTree = "<group>";
+		};
+		68F52B67BEB6315C4E88AA98 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				E1644F2BE8F2F8B3F3696FFE /* DatabaseModule.swift */,
+				F0C70A673D5B75C884A7EC00 /* NetworkModule.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		746D81DD2B9591E69F1A968D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				E191FFD619E206505B29AF3F /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		8F89D47CED5A76316B748C85 = {
+			isa = PBXGroup;
+			children = (
+				31596E16B7DD36C3AA6270BB /* ShopLite */,
+				43BF611BE4BE7351DE6F4312 /* ShopLiteTests */,
+				B9225C6BC7A9EE117BBAB3A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98E5082A030D4AA87E0395D2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F4CAE06A8894860D64266F8C /* Local */,
+				1AAB2B36A56F9765B7D4DA63 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9BC5B81F225F1A07497CA97E /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				F8279DD56FB29C3061BEBC03 /* CartScreen.swift */,
+				86A8CF970B6E4CFB601BBA65 /* CartViewModel.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		9FE80773D206EC81CE7467B7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CFD424697DA33EEE091242FD /* HomeScreen.swift */,
+				12669CC7471573CA7F3AA80D /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B4713BB01D9AE9A546326BD6 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				EB1162DD6E700C0BFDA16843 /* ProductDetailScreen.swift */,
+				6045BCBF93104FFA5A8717FA /* ProductDetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		B9225C6BC7A9EE117BBAB3A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B30EBC6C15E4ACE4FED3F0 /* ShopLite.app */,
+				98671C3EC7429D3BB8E6AB9A /* ShopLiteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0DB3ED272BB0087F22A5243 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CF699455DA4857C301BA675C /* LoginScreen.swift */,
+				61EA4B9AC330BE12A8366662 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F20CDEACB14DFDA43056B249 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				252DA49271F3FFB3305FCB70 /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4CAE06A8894860D64266F8C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				5928BBE57D882902628422EF /* Converters.swift */,
+				1A10EE7D8C95C4EF3D754F6B /* ProductDao.swift */,
+				EBBE28B975C7E87B85B708CC /* ProductEntity.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E59A9F87CCC94161FCFA9DA /* ShopLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177AC021C73EAE23BBDFA9B0 /* Build configuration list for PBXNativeTarget "ShopLite" */;
+			buildPhases = (
+				3974A59753DD5BFF62606D02 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopLite;
+			packageProductDependencies = (
+			);
+			productName = ShopLite;
+			productReference = 11B30EBC6C15E4ACE4FED3F0 /* ShopLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BA1E02B1A03D29D1199388F /* ShopLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48AB1616B285B89FB894466C /* Build configuration list for PBXNativeTarget "ShopLiteTests" */;
+			buildPhases = (
+				1055719A470C4D78AC26ED45 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				737132D8B563249668B818C1 /* PBXTargetDependency */,
+			);
+			name = ShopLiteTests;
+			packageProductDependencies = (
+			);
+			productName = ShopLiteTests;
+			productReference = 98671C3EC7429D3BB8E6AB9A /* ShopLiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD74ABE2B814FF6552ECBDCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7E59A9F87CCC94161FCFA9DA = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F07676D519C08E2873A974D /* Build configuration list for PBXProject "ShopLite" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8F89D47CED5A76316B748C85;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B9225C6BC7A9EE117BBAB3A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E59A9F87CCC94161FCFA9DA /* ShopLite */,
+				9BA1E02B1A03D29D1199388F /* ShopLiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1055719A470C4D78AC26ED45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC60D17BD8EAB337B20C573 /* UtilsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974A59753DD5BFF62606D02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3C16E0A3A64268B101340B /* ApiService.swift in Sources */,
+				97CDD3F870E69126C0F53236 /* AuthInterceptor.swift in Sources */,
+				4F491BC09E6A1F8350A5B5DA /* AuthRepository.swift in Sources */,
+				8EB186E05ED468FBDE44FE13 /* CartRepository.swift in Sources */,
+				5B9B824A38584464E48AC0E6 /* CartScreen.swift in Sources */,
+				523F97E3BFCB458B539944F6 /* CartViewModel.swift in Sources */,
+				2A6D7E00E8552F7B6B94043E /* Converters.swift in Sources */,
+				9A79A5662708E1A054D0474E /* DatabaseModule.swift in Sources */,
+				13EEE4B4BDDE3602605FE89C /* HomeScreen.swift in Sources */,
+				F0D83C215E29D16407F1B6C4 /* HomeViewModel.swift in Sources */,
+				7A57D793FF9042FAFC9659EB /* HttpApiService.swift in Sources */,
+				F946C9231971D7EE91D22F7E /* HttpClient.swift in Sources */,
+				E3636C30C319AB6227C8DFFB /* HttpLoggingInterceptor.swift in Sources */,
+				79C45ED1D5AD1DD9AA1DF43D /* LoginScreen.swift in Sources */,
+				B1906671BEA4AB8008DFB640 /* LoginViewModel.swift in Sources */,
+				BFE8DDDB29DDF6977F9DF7F3 /* Models.swift in Sources */,
+				85C8F52E3CF655266B827417 /* NetworkModule.swift in Sources */,
+				A841724A15E20E8EF4E1A46E /* ProductDao.swift in Sources */,
+				8AAD8A72674390E3817FC74E /* ProductDetailScreen.swift in Sources */,
+				E07EFA2E9804C092304CBF1F /* ProductDetailViewModel.swift in Sources */,
+				C75F0E7C6C94D2D1F46F8504 /* ProductEntity.swift in Sources */,
+				F97E6175DA8C26D40667434F /* ProductRepository.swift in Sources */,
+				9108F03EFBCB37A8F6111D8C /* ShopLiteApp.swift in Sources */,
+				012B19A04BAE2D01357965EE /* Theme.swift in Sources */,
+				506834E52924F6ECC1333247 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		737132D8B563249668B818C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E59A9F87CCC94161FCFA9DA /* ShopLite */;
+			targetProxy = A69FEA546667F1410B57F038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00ACE62ED442101C1418FE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoplite.ShopLiteTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopLite.app/ShopLite";
+			};
+			name = Debug;
+		};
+		0D47D61E08ACD4722D7BB143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoplite.ShopLiteTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShopLite.app/ShopLite";
+			};
+			name = Release;
+		};
+		10C41397BBA7DAAB3C469279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShopLite;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoplite.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		24261F3280EE622BA56DA0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature IsolatedDefaultValues";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5616C1F59675C7B2F09C3782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShopLite;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoplite.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B9C85311B1AE1CCC9BEDE9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature IsolatedDefaultValues";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		177AC021C73EAE23BBDFA9B0 /* Build configuration list for PBXNativeTarget "ShopLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5616C1F59675C7B2F09C3782 /* Debug */,
+				10C41397BBA7DAAB3C469279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		48AB1616B285B89FB894466C /* Build configuration list for PBXNativeTarget "ShopLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00ACE62ED442101C1418FE7F /* Debug */,
+				0D47D61E08ACD4722D7BB143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F07676D519C08E2873A974D /* Build configuration list for PBXProject "ShopLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24261F3280EE622BA56DA0DA /* Debug */,
+				B9C85311B1AE1CCC9BEDE9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD74ABE2B814FF6552ECBDCF /* Project object */;
+}
